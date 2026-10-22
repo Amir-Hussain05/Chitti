@@ -1,0 +1,238 @@
+/* ==========================================================
+   CHITTI Professional Dark Theme
+   ========================================================== */
+
+
+/* ==========================================================
+   Main Window
+   ========================================================== */
+
+QMainWindow {
+    background-color: #111827;
+}
+
+QWidget {
+    background-color: #111827;
+    color: #F3F4F6;
+    font-family: "Segoe UI";
+    font-size: 11pt;
+}
+
+
+/* ==========================================================
+   Sidebar
+   ========================================================== */
+
+#Sidebar {
+
+    background-color: #111827;
+
+    border-right: 1px solid #1F2937;
+
+}
+
+
+#SidebarLogo {
+
+    font-size: 22px;
+
+    font-weight: bold;
+
+    color: white;
+
+    padding: 18px;
+
+}
+
+
+/* Sidebar Buttons */
+
+#SidebarButton {
+
+    background: transparent;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 10px;
+
+    text-align: left;
+
+    padding: 14px;
+
+    font-size: 12pt;
+
+}
+
+#SidebarButton:hover {
+
+    background: #1F2937;
+
+}
+
+#SidebarButton:pressed {
+
+    background: #2563EB;
+
+}
+
+
+/* ==========================================================
+   Header
+   ========================================================== */
+
+#Header {
+
+    background: #111827;
+
+    border-bottom: 1px solid #1F2937;
+
+}
+
+#HeaderTitle {
+
+    font-size: 20px;
+
+    font-weight: bold;
+
+    color: white;
+
+}
+
+#StatusLabel {
+
+    color: #22C55E;
+
+    font-size: 13px;
+
+    font-weight: bold;
+
+}
+
+
+/* ==========================================================
+   Welcome Screen
+   ========================================================== */
+
+#WelcomeLabel {
+
+    color: white;
+
+    font-size: 30px;
+
+    font-weight: bold;
+
+    padding: 35px;
+
+}
+
+
+/* ==========================================================
+   Chat Bubbles
+   ========================================================== */
+
+#UserBubble {
+
+    background: #2563EB;
+
+    border: none;
+
+    border-radius: 18px;
+
+}
+
+#AssistantBubble {
+
+    background: #1E293B;
+
+    border: none;
+
+    border-radius: 18px;
+
+}
+
+
+/* IMPORTANT
+   Remove any background behind QLabel text
+*/
+
+#UserBubble QLabel,
+#AssistantBubble QLabel {
+
+    background: transparent;
+
+    border: none;
+
+    color: white;
+
+    font-size: 15px;
+
+}
+
+
+/* ==========================================================
+   Input Bar
+   ========================================================== */
+
+#InputBar {
+
+    background: #111827;
+
+    border-top: 1px solid #1F2937;
+
+}
+
+QLineEdit {
+
+    background: #1F2937;
+
+    border: none;
+
+    border-radius: 18px;
+
+    padding: 12px 18px;
+
+    color: white;
+
+    font-size: 14px;
+
+    selection-background-color: #2563EB;
+
+}
+
+QLineEdit:focus {
+
+    border: 1px solid #2563EB;
+
+}
+
+QPushButton {
+
+    background: #2563EB;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 18px;
+
+    padding: 10px 20px;
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+}
+
+QPushButton:hover {
+
+    background: #3B82F6;
+
+}
+
+QPushButton:pressed {
+
+    background: #1D4ED8;
+
+}

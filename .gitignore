@@ -1,0 +1,41 @@
+# Secrets — never commit
+.env
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+*.egg-info/
+.venv/
+venv/
+
+# Runtime data
+logs/*.log
+logs/*.log.*
+database/*.json
+database/*.db
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Logs
+logs/
+*.log
+
+# Environment and secrets
+.env
+.env.*
+
+# Test files that may contain local experiments
+test_env.py
+test_ai.py
